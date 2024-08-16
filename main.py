@@ -10,7 +10,7 @@ from pyrogram.errors import FloodWait
 
 
 app = Client(
-    name = "devbotz",
+    name = "Warrior Status",
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"],
     session_string = os.environ["SESSION_STRING"]
@@ -27,7 +27,7 @@ async def main_devchecker():
     async with app:
             while True:
                 print("Checking...")
-                xxx_teletips = f"<u>**🏷 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {(await app.get_chat(CHANNEL_ID)).title} ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴄʜᴀɴɴᴇʟ**</u>\n\n 📈 | <u>**ʀᴇᴀʟ ᴛɪᴍᴇ ʙᴏᴛ's sᴛᴀᴛᴜs 🍂**</u>"
+                xxx_teletips = f"<u>**🏷 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴀɴɪᴍᴇ ᴡᴀʀʀɪᴏʀs Bᴏᴛ sᴛᴀᴛᴜs**</u>\n\n 📈 | <u>**ʀᴇᴀʟ ᴛɪᴍᴇ ʙᴏᴛ's sᴛᴀᴛᴜs 🍂**</u>"
                 for bot in BOT_LIST:
                     await asyncio.sleep(7)
                     try:
